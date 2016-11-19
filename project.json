@@ -33,7 +33,10 @@
   "buildOptions": {
     "emitEntryPoint": true,
     "preserveCompilationContext": true,
-    "debugType": "portable"
+    "debugType": "portable",
+    "compile": {
+      "exclude": ["node_modules", "Client"]
+    }
   },
 
   "runtimeOptions": {
